@@ -1,0 +1,21 @@
+<div class="table-wrapper">
+<h2>Alle Teilnehmerinnen</h2>
+<table class="table table-striped table-hover align-middle">
+        <thead>
+            <tr>
+                <th scope="col">Nr</th>
+                <th scope="col">Vorname</th>
+                <th scope="col">Nachname</th>
+                <th scope="col">E-Mail</th>
+                <th scope="col">IP-Adresse</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+</div>
+@for(member of alleMembers; track $index)
+{
+    {{$index}}
+}
